@@ -1,0 +1,92 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    margin: 0;
+    padding-bottom: 5%;
+    line-height: 95%;
+}
+h3 {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+    line-height: 100%;
+    font-size: 90%;
+}
+
+p {
+    margin: 0;
+    margin-top: 3px;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #1f7f8f;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding-left: 25px;
+    text-indent: -20px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
+.fa {
+    text-indent: 0;
+}
+
+img.photo {
+    height: 100px;
+    padding-left: 10px;
+}
+
+
+.container {
+    display: grid;
+    width: 70%; 
+    min-width:300px;
+
+    grid-template-columns: [title] 1fr [cont] 2fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+
+    align-items: start;
+
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.item_title {
+    grid-column: title;
+    justify-self: end;
+    align-self: start;
+}
+
+.item_cont {
+    grid-column: cont;
+    justify-self: start;
+    align-self: start;
+    text-align: left;
+
+    border-left: 4px solid black;
+}
