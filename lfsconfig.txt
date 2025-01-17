@@ -1,0 +1,2 @@
+[lfs]
+	url = https://d6a00825-48ce-48fa-818a-3734a02006fe.netlify.app/.netlify/large-media
