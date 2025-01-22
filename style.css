@@ -1,12 +1,12 @@
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Times New Roman", "Times New Roman", "Times New Roman", Times New Roman, "Times New Roman", sans-serif;
     text-align: middle;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: linear-gradient(to right,#1e784b , #1e784b); 
+    background: linear-gradient(to right,#1e784b , #125c37); 
 }
 
 h1 {
