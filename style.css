@@ -1,12 +1,12 @@
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    text-align: right;
+    text-align: middle;
     padding: 0;
     margin: 0;
 }
 
-.item_title {
-    background-color: #d1e7dd; /* Example: light green background */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example: orange gradient */
 }
 
 h1 {
@@ -31,7 +31,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #1f7f8f;
+    color: #0f4229;
 }
 a:hover {
     text-decoration: underline;
@@ -45,8 +45,8 @@ ul {
 }
 li {
     list-style: none;
-    padding-left: 25px;
-    text-indent: -20px;
+    padding-left: 20px;
+    text-indent: -10px;
 }
 
 li:not(:last-child) {
