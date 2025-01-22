@@ -5,6 +5,9 @@ body {
     margin: 0;
 }
 
+.item_title {
+    background-color: #d1e7dd; /* Example: light green background */
+}
 
 h1 {
     margin: 0;
