@@ -66,8 +66,8 @@ img.photo {
 
 .container {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center;    /* Center-align content */
+    flex-direction: column; 
+    align-items: center;    
     width: 70%;
     min-width: 300px;
     margin: 0 auto;
