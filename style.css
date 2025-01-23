@@ -66,17 +66,25 @@ img.photo {
 
 .container {
     display: grid;
-    width: 70%; 
-    min-width:300px;
-
-    grid-template-columns: [title] 1fr [cont] 2fr;
-    grid-column-gap: 5px;
+    width: 70%;
+    min-width: 300px;
+    grid-template-columns: 1fr; /* Single-column layout for stacking */
     grid-row-gap: 20px;
-
-    align-items: start;
-
+    align-items: center;
     margin: 0 auto;
     padding-top: 50px;
+    text-align: center;
+}
+
+.item_title {
+    text-align: center;
+}
+
+img.photo {
+    height: 200px;
+    margin: 10px auto; /* Center the image */
+    border-radius: 50%; /* Optional: Circular image */
+    display: block;
 }
 
 .item_title {
