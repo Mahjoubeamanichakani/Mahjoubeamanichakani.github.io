@@ -24,7 +24,6 @@ h3.title_h3{
 
 #main {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    /*font-family: 'Anaheim', sans-serif;*/
     margin:0 auto;
     width: 50%; 
     min-width:300px;
@@ -41,7 +40,7 @@ div.main_itemheader {
     color: #224455;
     float: left;
     clear: both;
-    text-align:right;
+    text-align:left;
     direction:rtl;
 }
 
