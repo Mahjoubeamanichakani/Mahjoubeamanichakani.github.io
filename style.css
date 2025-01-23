@@ -65,27 +65,26 @@ img.photo {
 
 
 .container {
-    display: grid;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;    /* Center-align content */
     width: 70%;
     min-width: 300px;
-    grid-template-columns: 1fr; /* Single-column layout for stacking */
-    grid-row-gap: 20px;
-    align-items: center;
     margin: 0 auto;
     padding-top: 50px;
     text-align: center;
 }
 
 .item_title {
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 img.photo {
     height: 200px;
-    margin: 10px auto; /* Center the image */
-    border-radius: 50%; /* Optional: Circular image */
-    display: block;
+    margin-top: 20px;  /* Space between name and image */
+    border-radius: 50%; /* Optional: Make the image circular */
 }
+
 
 .item_title {
     grid-column: title;
