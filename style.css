@@ -81,8 +81,8 @@ img.photo {
 
 img.photo {
     height: 200px;
-    margin-top: 20px;  /* Space between name and image */
-    border-radius: 50%; /* Optional: Make the image circular */
+    margin-top: 20px;  
+    border-radius: 50%; 
 }
 
 
