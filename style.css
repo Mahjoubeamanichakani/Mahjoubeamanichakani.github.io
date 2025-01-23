@@ -1,6 +1,6 @@
 body {
     font-family: "Times New Roman", "Times New Roman", "Times New Roman", Times New Roman, "Times New Roman", sans-serif;
-    text-align: right;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
@@ -31,7 +31,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #0f4229;
+    color: #233e4a;
 }
 a:hover {
     text-decoration: underline;
@@ -45,7 +45,7 @@ ul {
 }
 li {
     list-style: none;
-    padding-left: 20px;
+    padding-left: 100px;
     text-indent: -10px;
 }
 
@@ -59,8 +59,8 @@ li:not(:last-child) {
 }
 
 img.photo {
-    height: 100px;
-    padding-left: 10px;
+    height: 200px;
+    padding-left: 20px;
 }
 
 
