@@ -79,6 +79,8 @@ img.photo {
 
 .item_title {
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 img.photo {
