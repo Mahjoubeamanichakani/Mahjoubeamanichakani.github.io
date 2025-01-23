@@ -17,6 +17,7 @@ h1 {
 h3 {
     margin: 0;
     text-align: center;
+    align-items: center; 
 }
 h4 {
     margin: 0;
