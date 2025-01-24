@@ -90,11 +90,6 @@ img.photo {
 }
 
 
-.item_title {
-    grid-column: title;
-    justify-self: end;
-    align-self: start;
-}
 
 .item_cont {
     grid-column: cont;
