@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background: linear-gradient(to right, #ccded5, #b4bfba); 
+    background: linear-gradient(to right, #c2b490, #acb7ae); 
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
 }
 h3 {
     margin: 0;
-    text-align: center;
-    align-items: center; 
+    text-align: left;
+    align-items: left; 
 }
 h4 {
     margin: 0;
@@ -79,8 +79,8 @@ img.photo {
 
 .item_title {
     margin-bottom: 20px;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 }
 
 img.photo {
