@@ -108,8 +108,8 @@ body {
 
 .header img {
   width: 100%; 
-  height: auto; 
-  display: block; 
+  height: 300px; 
+  display: cover; 
 }
 
 .navigation-bar {
