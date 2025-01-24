@@ -68,15 +68,16 @@ img.photo {
 
 .container {
     display: grid;
-    gap: 20px; 
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 50px;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 20px;
+    align-items: start;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .item_title {
     text-align: left; 
-    font-weight: bold;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
@@ -89,13 +90,14 @@ img.photo {
 
 .item_title {
      text-align: left; 
-    font-weight: bold;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 .item_cont {
     text-align: left;
     border-left: noun;
+    line-height: 1.6;
 }
 
 
