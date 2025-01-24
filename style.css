@@ -1,5 +1,5 @@
 body {
-    font-family: "Times New Roman", "Times New Roman", "Times New Roman", Times New Roman, "Times New Roman", sans-serif;
+    font-family: "Times New Roman", "Times New Roman", "Times New Roman", Times New Roman, "Times New Roman", Times New Roman;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -102,13 +102,13 @@ img.photo {
 
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times New Roman, Times New Roman;
 }
 
 
 .header img {
   width: 100%; 
-  height: 220px; 
+  height: 200px; 
   display: cover; 
 }
 
@@ -125,7 +125,7 @@ body {
 .navigation-bar a {
   text-decoration: none; 
   color: #0a4b78;
-  font-family: Arial, sans-serif;
+  font-family: Times New Roman, Times New Roman;
   font-weight: bold;
   font-size: 14px;
   transition: color 0.3s ease;
