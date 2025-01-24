@@ -67,20 +67,20 @@ img.photo {
 
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    column-gap: 20px;
-    align-items: start;
-    grid-column: title;
-    justify-self: end;
-    width: 80%;
-    margin: 50px auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    width: 70%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .item_title {
-    text-align: left; 
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 img.photo {
@@ -91,18 +91,18 @@ img.photo {
 
 
 .item_title {
-    text-align: left; 
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    grid-column: title;
+    justify-self: end;
+    align-self: start;
 }
 
 .item_cont {
-    text-align: left;
-    border-left: noun;
-    line-height: 1.6;
     grid-column: cont;
     justify-self: start;
     align-self: start;
+    text-align: left;
+
+    border-left: noun;
 }
 
 
