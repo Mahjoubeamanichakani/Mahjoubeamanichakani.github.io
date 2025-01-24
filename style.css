@@ -68,7 +68,6 @@ img.photo {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr; 
     gap: 20px; 
     width: 90%;
     margin: 0 auto;
