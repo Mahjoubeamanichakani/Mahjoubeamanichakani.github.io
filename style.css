@@ -71,6 +71,8 @@ img.photo {
     grid-template-columns: 1fr 4fr;
     column-gap: 20px;
     align-items: start;
+    grid-column: title;
+    justify-self: end;
     width: 80%;
     margin: 50px auto;
 }
@@ -89,7 +91,7 @@ img.photo {
 
 
 .item_title {
-     text-align: left; 
+    text-align: left; 
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -98,6 +100,9 @@ img.photo {
     text-align: left;
     border-left: noun;
     line-height: 1.6;
+    grid-column: cont;
+    justify-self: start;
+    align-self: start;
 }
 
 
