@@ -67,20 +67,18 @@ img.photo {
 
 
 .container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    display: grid;
+     grid-template-columns: 1fr 3fr; 
+    gap: 20px; 
     width: 70%;
-    min-width: 300px;
     margin: 0 auto;
     padding-top: 50px;
-    text-align: center;
 }
 
 .item_title {
-    margin-bottom: 20px;
-    text-align: center;
-    align-items: center;
+    text-align: left; 
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 img.photo {
@@ -91,21 +89,18 @@ img.photo {
 
 
 .item_title {
-    grid-column: title;
-    justify-self: end;
-    align-self: start;
+     text-align: left; 
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .item_cont {
-    grid-column: cont;
-    justify-self: start;
-    align-self: start;
     text-align: left;
-
     border-left: noun;
 }
 
 
 body {
     font-family: 'Times New Roman', Times, serif;
+     background: linear-gradient(to right, #acb7ae, #c2b490)
 }
