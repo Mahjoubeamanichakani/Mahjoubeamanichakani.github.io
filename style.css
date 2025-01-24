@@ -133,6 +133,11 @@ align-self: start;
 text-align: left;
 }
 
+.justified-text {
+  text-align: justify;
+}
+
+
 .navigation-bar a:hover {
   color: #ff6347; 
 }
