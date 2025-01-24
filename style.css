@@ -110,21 +110,25 @@ body {
 
 .navigation-bar {
   display: flex;
-  justify-content: flex-end; /* Align links to the right */
-  gap: 20px; /* Add spacing between links */
-  padding: 10px 20px; /* Add some padding around */
-  background-color: #f5f5dc; /* Background color similar to your example */
+  justify-content: flex-end; 
+  gap: 20px;
+  padding: 10px 20px; 
+  background-color: #f5f5dc; 
+  align-self: start;
+  text-align: left;
 }
 
 .navigation-bar a {
-  text-decoration: none; /* Remove underline from links */
-  color: #0a4b78; /* Dark blue text */
+  text-decoration: none; 
+  color: #0a4b78;
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   transition: color 0.3s ease;
+align-self: start;
+text-align: left;
 }
 
 .navigation-bar a:hover {
-  color: #ff6347; /* Change color on hover (tomato red) */
+  color: #ff6347; 
 }
