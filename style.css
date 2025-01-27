@@ -7,10 +7,9 @@ body {
 
 body {
     background: linear-gradient(to right, #c2b490, #acb7ae); 
-    max-height: 90vh;
+    max-height: 100vh;
     overflow-y: auto;
     width: 100%;
-    max-width: 1200px;
 }
 
 h1 {
