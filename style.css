@@ -142,3 +142,20 @@ text-align: left;
 .navigation-bar a:hover {
   color: #ff6347; 
 }
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    font-size: 30px;
+    color: #333; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0077b5; 
+    transform: scale(1.2);
+}
