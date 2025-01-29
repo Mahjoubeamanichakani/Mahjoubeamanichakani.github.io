@@ -184,3 +184,45 @@ text-align: left;
     line-height: 1.6;
 }
 
+
+
+
+Updated Header CSS
+
+/* Header image styling */
+.header {
+    width: 100%;
+    height: 300px; /* Adjust this height as needed */
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5dc; /* Fallback color */
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This maintains aspect ratio */
+    object-position: center; /* Centers the image */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Optional: Add a subtle gradient overlay */
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+    pointer-events: none;
+}
+
+/* Ensure the ribbons div doesn't interfere with header */
+.ribbons {
+    width: 100%;
+    overflow: hidden;
+}
