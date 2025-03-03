@@ -62,7 +62,7 @@ li:not(:last-child) {
 }
 
 img.photo {
-    height: 250px;
+    height: 300px;
     padding-left: 20px;
 }
 
@@ -112,7 +112,7 @@ body {
 .header img {
   width: 100%; 
   height: auto; 
-  max-height: 400px;
+  max-height: 500px;
   display: cover;
 object-fit: cover;
 }
@@ -199,10 +199,13 @@ text-align: center;
     .navigation-bar {
         flex-direction: column;
         gap: 10px;
+        align-items: center;
+        text-align: left;
     }
     .navigation-bar a {
         padding: 3px 8px;
-        text-align: center;
+        align-items: center;
+        text-align: left;
     }
     img.photo {
         height: 150px;
@@ -212,10 +215,13 @@ text-align: center;
 @media screen and (max-width: 768px) {
     h1, h3, h4 {
         text-align: center;
+        margin: 10 auto;
     }
     .navigation-bar {
         flex-direction: column;
         gap: 5px;
+         align-items: center;
+        text-align: left;
     }
     .item_cont, .item_title {
         text-align: center;
@@ -233,6 +239,8 @@ text-align: center;
     .navigation-bar a {
         font-size: 14px;
         padding: 6px 0;
+        align-items: center;
+        text-align: left;
     }
     img.photo {
         width: 100px;
