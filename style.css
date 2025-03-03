@@ -119,7 +119,6 @@ object-fit: cover;
 
 .navigation-bar {
   display: flex;
-  flex-direction: column; 
   gap: 8px;
   padding: 10px 0px; 
   background-color: #f5f5dc; 
