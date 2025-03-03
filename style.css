@@ -110,8 +110,10 @@ body {
 
 .header img {
   width: 100%; 
-  height: 300px; 
-  display: cover; 
+  height: auto; 
+  max-height: 400px;
+  display: cover;
+object-fit: cover;
 }
 
 .navigation-bar {
