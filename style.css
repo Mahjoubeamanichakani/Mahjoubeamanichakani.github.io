@@ -191,6 +191,7 @@ text-align: center;
 @media screen and (max-width: 1024px) {
     .container {
         padding: 10px;
+        margin: 10 auto;
     }
     h1 {
         font-size: 24px;
@@ -200,7 +201,7 @@ text-align: center;
         gap: 10px;
     }
     .navigation-bar a {
-        padding: 8px;
+        padding: 3px 8px;
         text-align: center;
     }
     img.photo {
@@ -227,6 +228,7 @@ text-align: center;
 @media screen and (max-width: 480px) {
     body {
         font-size: 14px;
+        margin: 10 auto;
     }
     .navigation-bar a {
         font-size: 14px;
