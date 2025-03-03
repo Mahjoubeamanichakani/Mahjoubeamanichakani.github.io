@@ -184,4 +184,61 @@ text-align: left;
     line-height: 1.6;
 }
 
+**********
+/* Make sure the page scales correctly on all devices */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .navigation-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navigation-bar a {
+        padding: 8px;
+        text-align: center;
+    }
+    img.photo {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1, h3, h4 {
+        text-align: center;
+    }
+    .navigation-bar {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .item_cont, .item_title {
+        text-align: center;
+    }
+    img.photo {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    .navigation-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .navigation-bar a {
+        font-size: 12px;
+    }
+    img.photo {
+        height: 100px;
+    }
+    .container {
+        padding: 5px;
+    }
+}
 
