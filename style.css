@@ -14,6 +14,7 @@ h1 {
     line-height: 95%;
 }
 
+
 h3 {
     margin: 0;
     text-align: left;
@@ -195,4 +196,11 @@ li:not(:last-child) {
         width: 100px;
         height: 100px;
     }
+}
+
+
+header img {
+  width: 100%; 
+  height: 300px; 
+  display: cover; 
 }
