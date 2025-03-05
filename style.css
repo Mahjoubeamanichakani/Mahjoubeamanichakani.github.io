@@ -92,8 +92,8 @@ li:not(:last-child) {
 
 /* Profile Photo */
 .profile-photo img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;  /* Circular image */
     object-fit: cover;
     display: block;
