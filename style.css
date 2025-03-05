@@ -82,9 +82,9 @@ li:not(:last-child) {
 /* Profile Section (Image + Text Side by Side) */
 .profile-container {
     display: flex;
-    align-items: center;             /* Vertical alignment */
-    justify-content: space-between;  /* Spread out the content */
-    gap: 40px;                       /* Space between image and text */
+    align-items: center;             
+    justify-content: space-between;  
+    gap: 40px;                      
     max-width: 1000px;
     margin: 30px auto;
     padding: 20px;
@@ -92,8 +92,8 @@ li:not(:last-child) {
 
 /* Profile Photo */
 .profile-photo img {
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;  /* Circular image */
     object-fit: cover;
     display: block;
