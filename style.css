@@ -107,7 +107,7 @@ li:not(:last-child) {
     text-align: left;
 }
 
-profile-text h2 {
+.profile-text h2 {
     margin: 0;
     font-size: 1.8rem;
 }
@@ -118,7 +118,7 @@ profile-text h2 {
 }
 
 /* Interests Section */
-interests {
+.interests {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
@@ -132,27 +132,27 @@ interests {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-interests h2 {
+.interests h2 {
     font-size: 26px;
     color: #222;
     margin-bottom: 10px;
 }
 
 /* Social Media Icons */
-social-media {
+.social-media {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-top: 20px;
 }
 
-social-media a {
+.social-media a {
     font-size: 30px;
     color: #333;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-social-media a:hover {
+.social-media a:hover {
     color: #0077b5;
     transform: scale(1.2);
 }
