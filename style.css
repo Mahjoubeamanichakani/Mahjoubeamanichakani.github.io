@@ -201,6 +201,6 @@ li:not(:last-child) {
 
 header img {
   width: 100%; 
-  height: 100px; 
-  display: cover; 
+  height: 60px; 
+  object-fit: cover; 
 }
